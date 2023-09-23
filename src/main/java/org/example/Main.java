@@ -45,11 +45,6 @@ public class Main {
                     }
                 }
 
-                if (goal) {
-                    System.out.println("Goal Reached");
-                    break;
-                }
-
                 for (int[] move : moves) {
                     int newRow = tempState.currentLocation[0] + move[0];
                     int newCol = tempState.currentLocation[1] + move[1];
